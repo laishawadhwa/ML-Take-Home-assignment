@@ -1,12 +1,14 @@
-![image](https://github.com/laishawadhwa/ML-Take-Home-assignment/assets/25785830/2ded5d21-cab1-45b0-ab0a-9b98d53f40fe)# Dynamic Pricing engine and Sales Forecasting
+# Dynamic Pricing engine and Sales Forecasting
 
 Price optimization involves leveraging historical data to determine the optimal pricing strategy for a product or service, with the aim of maximizing a company's profitability. Businesses continually enhance their products by adding or upgrading features, which incurs costs in terms of time, effort, and the company's reputation. Therefore, striking the right balance between pricing that is too high, potentially leading to customer loss, and pricing that is too low, resulting in revenue loss, is crucial.
 
- Problem Statement: The process of maximizing profitability takes into account a multitude of factors, including demographic data, operating costs, customer survey insights, and more. The nature of the business and the product being offered also significantly influence the pricing strategy. Your job is to build a demand forecasting and price optimization model for the e-commerce store.
+## Problem Statement
+The process of maximizing profitability takes into account a multitude of factors, including demographic data, operating costs, customer survey insights, and more. The nature of the business and the product being offered also significantly influence the pricing strategy. Your job is to build a demand forecasting and price optimization model for the e-commerce store.
  The demand forecasting model needs to prodict sales in order to maximize the gross profit.
 The price optimization model needs to predict what is the price at which the product should be priced -  you have 8 options of discount to choose from for the product : **5%,10%, 15%, 20%, -5%, -10%, -15%, -20%**
 
- DataSet: You have been given retail products data with the following features:
+## DataSet
+You have been given retail products data with the following features:
 
 - **customers (integer) -** monthly demand for a given subcategory of goods
 - **freight_price (float) -** freight price of the company goods
@@ -33,6 +35,8 @@ The price optimization model needs to predict what is the price at which the pro
 
 ## Evaluatuon Metric: 
 Weighted mean absolute error (WMAE):
+
+![image](https://github.com/laishawadhwa/ML-Take-Home-assignment/assets/25785830/2ded5d21-cab1-45b0-ab0a-9b98d53f40fe)
 
 where
 
