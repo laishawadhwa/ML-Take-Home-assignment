@@ -1,4 +1,4 @@
-# Dynamic Pricing engine and Sales Forecasting
+![image](https://github.com/laishawadhwa/ML-Take-Home-assignment/assets/25785830/2ded5d21-cab1-45b0-ab0a-9b98d53f40fe)# Dynamic Pricing engine and Sales Forecasting
 
 Price optimization involves leveraging historical data to determine the optimal pricing strategy for a product or service, with the aim of maximizing a company's profitability. Businesses continually enhance their products by adding or upgrading features, which incurs costs in terms of time, effort, and the company's reputation. Therefore, striking the right balance between pricing that is too high, potentially leading to customer loss, and pricing that is too low, resulting in revenue loss, is crucial.
 
@@ -31,6 +31,15 @@ The price optimization model needs to predict what is the price at which the pro
 - **holiday (integer) -** number of holidays per month
 - **s (float) -** unknown parameter
 
+## Evaluatuon Metric: 
+Weighted mean absolute error (WMAE):
+
+where
+
+n is the number of rows
+ŷ i is the predicted sales
+yi is the actual sales
+wi are weights. w = 5 if the week is a holiday week, 1 otherwise
 
 
  ## Deliverables: What do you need to submit?
