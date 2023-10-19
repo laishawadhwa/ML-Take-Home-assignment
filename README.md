@@ -1,11 +1,14 @@
 # Dynamic Pricing engine and Sales Forecasting
 
-Price optimization involves leveraging historical data to determine the optimal pricing strategy for a product or service, with the aim of maximizing a company's profitability. Businesses continually enhance their products by adding or upgrading features, which incurs costs in terms of time, effort, and the company's reputation. Therefore, striking the right balance between pricing that is too high, potentially leading to customer loss, and pricing that is too low, resulting in revenue loss, is crucial.
+Retailers, especially e-commerce companies like Amazon, eBay, Myntra, etc. use dynamic pricing for personalized pricing. If you consistently buy from Amazon or another e-commerce website, prices will be higher. Algorithms calculate the loyalty level of each customer and set the price lower if a person is a newcomer. Dynamic pricing is now used for almost every product and service. From the price of a concert ticket to the price of a hotel booking is calculated by algorithms. Even Uber is using surge pricing.
+
+Dynamic pricing involves leveraging historical data to determine the optimal pricing strategy for a product or service, with the aim of maximizing a company's profitability. Businesses continually enhance their products by adding or upgrading features, which incurs costs in terms of time, effort, and the company's reputation. Therefore, striking the right balance between pricing that is too high, potentially leading to customer loss, and pricing that is too low, resulting in revenue loss, is crucial. In a nutshell, its the practice of setting a price for a product or service based on current market conditions. Businesses reap the benefits from a huge amount of data amid the rapidly evolving digital economy by adjusting prices in real-time through dynamic pricing. 
 
 ## Problem Statement
 The process of maximizing profitability takes into account a multitude of factors, including demographic data, operating costs, customer survey insights, and more. The nature of the business and the product being offered also significantly influence the pricing strategy. Your job is to build a demand forecasting and price optimization model for the e-commerce store.
- The demand forecasting model needs to prodict sales in order to maximize the gross profit.
-The price optimization model needs to predict what is the price at which the product should be priced -  you have 8 options of discount to choose from for the product : **5%,10%, 15%, 20%, -5%, -10%, -15%, -20%**
+The demand forecasting model needs to predict sales for the next day given that dataset in order to maximize the revenue for the e commerce company.
+The Dynamic pricing model needs to predict what is the price at which the product should be priced -  you have 8 options of discount to choose from for the product : **5%,10%, 15%, 20%, -5%, -10%, -15%, -20%**
+Given the dataset, you need to predict for each product, what should be the discount % offered on the next day in order to maximize revenue.
 
 ## DataSet
 You have been given retail products data with the following features:
